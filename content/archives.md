@@ -1,5 +1,5 @@
 ---
-title: "Archive"
+title: "Αρχείο"
 layout: "archives"
 url: "/archives"
 summary: "archives"

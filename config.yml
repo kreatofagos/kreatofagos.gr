@@ -21,7 +21,7 @@ languages:
                 - name: Αρχείο
                   url: archives
                   weight: 5
-                - name: Αναζητηση
+                - name: Αναζήτηση
                   url: search/
                   weight: 10
                 - name: Ετικέτες
