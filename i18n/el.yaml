@@ -10,7 +10,7 @@
     other: "{{ .Count }} λεπτά"
 
 - id: toc
-  translation: "Πίνακας Περιεχομένων 2"
+  translation: "Πίνακας Περιεχομένων"
 
 - id: translations
   translation: "Μεταφράσεις"
