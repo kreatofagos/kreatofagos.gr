@@ -1,9 +1,10 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: PaperMod
+baseURL: "https://kreatofagos.gr/"
+title: Kreatofagos
 paginate: 8
 theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
+defaultContentLanguage: el
 
 # googleAnalytics: UA-123-45
 
@@ -12,33 +13,33 @@ minify:
     # minifyOutput: true
 
 languages:
-    en:
-        languageName: "English"
+    el:
+        languageName: "Ελληνικά"
         weight: 1
         menu:
             main:
-                - name: Archive
+                - name: Αρχείο
                   url: archives
                   weight: 5
-                - name: Search
+                - name: Αναζητηση
                   url: search/
                   weight: 10
-                - name: Tags
+                - name: Ετικέτες
                   url: tags/
                   weight: 10
 
-    l2:
-        languageName: "Lang2"
+    en:
+        languageName: "English"
         weight: 2
-        title: PaperModL2
+        title: Kreatofagos
         profileMode:
             enabled: true
-            title: PaperMod
+            title: Kreatofagos (the Carnivore)
             # imageUrl: "#"
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            subtitle: "Welcome to kreatofagos.gr, a greek website about the carnivore diet."
             buttons:
                 - name: Blog
                   url: posts
@@ -58,26 +59,12 @@ languages:
                 - name: Series
                   url: series
                   weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
-
-    l3:
-        languageName: "Langrtl"
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        menu:
-            main:
-                - name: Tags
-                  url: tags
-                  weight: 10
+                # - name: NullLink
+                #   url: "#"
+                # - name: NullLink2
+                #   url: "#"
+                # - name: NullLink3
+                #   url: "#"
 
 outputs:
     home:
@@ -87,8 +74,8 @@ outputs:
 
 params:
     env: production
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Καλώς ορίσατε στο kreatofagos.gr"
+    author: Me
     # author: ["Me", "You"] # multiple authors
     ShowReadingTime: true
     defaultTheme: auto
@@ -100,9 +87,9 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
+        title: Kreatofagos
+        # imageUrl: "#"
+        # imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
@@ -112,7 +99,7 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "Καλώς ορίσατε στο kreatofagos.gr \U0001F44B"
         Content: >
             Welcome to demo of hugo's theme PaperMod.
 
@@ -128,7 +115,7 @@ params:
         - name: linkedin
           url: "#"
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+          url: "https://github.com/kreatofagos/kreatofagos.gr"
 
 taxonomies:
     category: categories
