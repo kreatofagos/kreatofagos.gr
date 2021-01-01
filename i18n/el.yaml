@@ -1,0 +1,16 @@
+- id: prev_page
+  translation: "Προηγούμενη Σελίδα"
+
+- id: next_page
+  translation: "Επόμενη Σελίδα"
+
+- id: read_time
+  translation:
+    one : "1 λεπτό"
+    other: "{{ .Count }} λεπτά"
+
+- id: toc
+  translation: "Πίνακας Περιεχομένων"
+
+- id: translations
+  translation: "Μεταφράσεις"
