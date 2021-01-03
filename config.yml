@@ -8,6 +8,8 @@ defaultContentLanguage: el
 
 # googleAnalytics: UA-123-45
 
+disqusShortname: kreatofagos
+
 minify:
     disableXML: true
     # minifyOutput: true
@@ -75,12 +77,13 @@ outputs:
 params:
     env: production
     description: "Καλώς ορίσατε στο kreatofagos.gr"
-    author: Me
+    author: Kreatofagos
     # author: ["Me", "You"] # multiple authors
     ShowReadingTime: true
     defaultTheme: auto
     ShowShareButtons: true
     displayFullLangName: true
+    comments: true
     # images: ""
     # assets:
     #   favicon: '<path / external url>'
